@@ -10,12 +10,6 @@
     "suppressImplicitAnyIndexErrors": true,
     "baseUrl": "../../../../node_modules",
     "moduleResolution": "Node",
-    "module": "System",
-    "types": [
-      "@popperjs/core",
-      "@microsoft/signalr",
-      "tinymce/tinymce"
-    ],
-    "allowUmdGlobalAccess": true 
+    "module": "System"
   }
 }

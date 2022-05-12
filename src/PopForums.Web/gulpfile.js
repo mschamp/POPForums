@@ -20,6 +20,7 @@ gulp.task("copies", function () {
 		gulp.src(nodeRoot + "vue/dist/**/*").pipe(gulp.dest(targetPath + "/vue/dist")),
 		gulp.src(nodeRoot + "vue-router/dist/**/*").pipe(gulp.dest(targetPath + "/vue-router/dist")),
 		gulp.src(nodeRoot + "axios/dist/**/*").pipe(gulp.dest(targetPath + "/axios/dist")),
+        gulp.src(nodeRoot + "@popperjs/core/dist/umd/**/*").pipe(gulp.dest(targetPath + "/popperjs/dist")),
 		gulp.src(targetPath + "PopForums/src/Fonts/**/*").pipe(gulp.dest(targetPath + "/PopForums/dist/Fonts"))
 	];
 	return merge(streams);
